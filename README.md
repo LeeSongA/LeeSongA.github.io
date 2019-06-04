@@ -1,15 +1,15 @@
 # Github Page using Hugo
 
-> Go를 접해보기 위해 Hugo를 사용했다.<br>
-> https://github.com/Integerous/Integerous.github.io 의 설명과<br>
-> https://gohugo.io/hosting-and-deployment/hosting-on-github 의 설명을 참고했다.<br>
-> 아래는 내가 사용한 방법이다.<br>
+> Go를 접해보기 위해 Hugo를 사용했다.  
+> https://github.com/Integerous/Integerous.github.io 의 설명과  
+> https://gohugo.io/hosting-and-deployment/hosting-on-github 의 설명을 참고했다.  
+> 아래는 내가 사용한 방법이다.  
 
-<br>
-<br>
+  
+  
 #### Github Page using Hugo 과정
 
-<br>
+  
 **1. Install Hugo**
 
 - [Giraffe Academy의 영상: Windows에서 Hugo설치하기](https://gohugo.io/getting-started/installing#windows)
@@ -18,19 +18,19 @@
 - 어느 위치에서나 Hugo를 실행할 수 있도록`$ set PATH=%PATH%;C:\Hugo\bin` 명령으로 환경변수에 `C:\Hugo\bin`를 추가한다.
 - 명령 프롬프트에 `$ hugo version` 혹은 `$ hugo help`로 동작을 확인한다.
 
-<br>
+  
 **2. Two Type of Github Pages**
 
 - Hugo의 컨텐츠와 소스파일들을 포함할 `<YOUR-PROJECT>` 저장소를 생성한다. (e.g. `Portfolio-Page`)
 - 렌더링된 버전의 Hugo 웹사이트를 포함할 `<USERNAME>.github.io` 저장소를 생성한다. (e.g. `LeeSongA.github.io`)
 
-<br>
+  
 **3. Directory Structure 구성**
 
 - `$ hugo new site Portfolio-Page` 명령으로 로컬에서 컨텐츠를 관리하기 위한 장소(e.g. `Hugo/Portfolio-Page`)를 생성한다.
 - `C:\Hugo\Portfolio-Page`에서 `$ dir`로 directory structure를 확인할 수 있다.
 
-<br>
+  
 **4. 테마 다운로드 및 설정**
 
 - https://themes.gohugo.io 에서 원하는 테마를 선택한다.
@@ -48,7 +48,7 @@
 	- To use it, copy the config.toml in the root folder of your Hugo site. 
 	- Feel free to change the strings in this theme.
 
-<br>
+  
 **5. Remote와 Submodule 설정**
 
 - 깃헙에 만든 `Portfolio-Page` 저장소를 local의 Portfolio-Page 디렉토리의 remote로 등록한다.
@@ -69,12 +69,12 @@
 
 
 > SSH <br>
-> Generating a new SSh key and adding it to the ssh-agent <br>
-> https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent <br>
-> Adding a new SSH key to your Github account <br>
+> Generating a new SSh key and adding it to the ssh-agent   
+> https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent   
+> Adding a new SSH key to your Github account   
 > https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
 
-<br>
+  
 **6. 컨텐츠 생성**
 
 - `$ hugo new post/test1.md` 명령으로 파일을 생성한다. 
@@ -84,7 +84,7 @@
   - `$ hugo server` 혹은 `$ hugo server -t <YOURTHEME>`로 웹서버를 실행한다.
   - `http://localhost:1313/`에 접속해서 확인한다.
 
-<br>
+  
 **7. 컨텐츠 업로드 (Portfolio-Page에)**
 
 - Portfolio-Page로 이동한다.
@@ -110,10 +110,10 @@
     $ git push origin master
     ```
 
-<br>
+  
 **8. 쉘 스크립트로 업로드 자동화하기**
 
-> It automates the whole process with a simple shell script.<br>
+> It automates the whole process with a simple shell script.  
 > [Put it Into a Script](https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script)의 deploy.sh 파일을 활용하여 쉘스크립트 작성했다.
 
 
@@ -165,8 +165,9 @@
     git push origin master
     ```
 
-<br>
-<br>
+  
+  
+  
 ### Reference
 - [Integerous의 Hugo로 github.io 블로그 만들기](https://github.com/Integerous/Integerous.github.io)
 - [Hosting on Github](https://gohugo.io/hosting-and-deployment/hosting-on-github)
