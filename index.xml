@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agency</title>
-    <link>https://example.org/</link>
-    <description>Recent content on Agency</description>
+    <title>SongA/Portfolio-Page</title>
+    <link>https://leesonga.github.io/</link>
+    <description>Recent content on SongA/Portfolio-Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leesonga.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

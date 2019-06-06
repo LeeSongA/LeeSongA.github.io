@@ -367,7 +367,7 @@ section h3.section-subheading {
     }
 }
 
-.service-heading {
+.skills-heading {
     margin: 15px 0;
     text-transform: none;
 }
@@ -669,26 +669,26 @@ section h3.section-subheading {
   justify-content: center;
 }
 
-.team-member {
+.profile-member {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.team-member img {
+.profile-member img {
     margin: 0 auto;
     border: 7px solid #fff;
 }
 
-.team-member p {
+.profile-member p {
     margin-top: 0;
 }
-.team-member h3 {
+.profile-member h3 {
     text-transform: none;
     font-weight: 600;
     color: #333;
 }
 
-.team-member h4 {
+.profile-member h4 {
     font-size: 16px;
     text-transform: none;
     font-weight: 400;
@@ -696,11 +696,11 @@ section h3.section-subheading {
     margin-bottom: 0px;
 }
 
-.team-member h4 a {
+.profile-member h4 a {
     text-transform: none;
 }
 
-.team-member h5 {
+.profile-member h5 {
     font-size: 14px;
     text-transform: none;
     font-style: italic;
@@ -709,15 +709,15 @@ section h3.section-subheading {
     margin-bottom: 15px
 }
 
-.team-member .report  {
+.profile-member .report  {
     margin-top: 0px;
 }
 
-.team-member h5 a {
+.profile-member h5 a {
     text-transform: none;
 }
 
-.team-member ul {
+.profile-member ul {
     list-style: none;
     text-align: center;
     margin-top: 15px;
@@ -725,7 +725,7 @@ section h3.section-subheading {
     padding: 0;
 }
 
-.team-bio {
+.profile-bio {
     padding: 15px
 }
 
