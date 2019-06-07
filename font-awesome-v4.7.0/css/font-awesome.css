@@ -2316,6 +2316,12 @@
 .fa-meetup:before {
   content: "\f2e0";
 }
+.fa-book-open:before {
+  content: "\f518"
+}
+.fa-hackerrank:before {
+  content: "\f5f7"
+}
 .sr-only {
   position: absolute;
   width: 1px;
